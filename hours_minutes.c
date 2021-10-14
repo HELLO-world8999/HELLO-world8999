@@ -4,6 +4,7 @@ int main()
 {int main_value , minutes , hours ;
 printf("Enter your value: ");
 scanf("%d",&main_value);
+
 if (main_value>=100 && main_value<=999){
 
     minutes=main_value%100;
@@ -11,12 +12,14 @@ if (main_value>=100 && main_value<=999){
     if (minutes==00){
         printf("%d hours",hours);}
     else{
-        printf("%d hours   %d minutes",hours,minutes);}
-        
+        printf("%d hours   %d minutes",hours,minutes);}       
 }
-else if (main_value>=10 && main_value<=99){
+
+else if (main_value>=1 && main_value<=99){
     printf("%d minutes",main_value);
 }
+else{
+    printf("Enter a valid input");}
 
 return 0;
 }
