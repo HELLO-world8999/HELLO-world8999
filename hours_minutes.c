@@ -7,7 +7,7 @@ scanf("%d",&main_value);
 if (main_value>=100 && main_value<=999){
 
     minutes=main_value%100;
-    hours=main_value//100;
+    hours=main_value/100;
     if (minutes==00){
         printf("%d hours",hours);}
     else{
@@ -15,7 +15,7 @@ if (main_value>=100 && main_value<=999){
         
 }
 else if (main_value>=10 && main_value<=99){
-    printf("%d minutes,main_value");
+    printf("%d minutes",main_value);
 }
 
 return 0;
