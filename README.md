@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Sahil_Kumar
 - 👀 I’m interested in computer stuffs
-- 🌱 I’m currently learning B.Tech in CSE
+- 🌱 I’m currently pursuing B.Tech in CSE
 - 💞️ I’m looking to collaborate on noteworthy projects
 - 📫 How to reach me ---> sahil.koiri@gmail.com
 
